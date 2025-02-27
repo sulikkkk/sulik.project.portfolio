@@ -70,8 +70,9 @@
     height: 100vh; /* Во всю высоту экрана */
     text-align: center;
     position: relative;
-    background: url('https://almaty.fizmat.kz/wp-content/uploads/sites/2/2020/05/Kartinki-dlya-sayta-e1526719274471-scaled.jpg') center/cover no-repeat;
-    /* Если нет изображения, используйте градиент: 
+    background: url('https://media-hosting.imagekit.io//2d3072286c664311/003___2024.06.04.jpg?Expires=1835279655&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=A8L8z1IYdT8uuFb~RTUOWwigopyMfebux~wRKCGaRQ8w1zjdf8Neo-1Am2myXl24FbUxp2KGs3kQM498oTIJmBHPuAF289Qr30VQvnj25tvYQPPbtsDsdXYnxEcqDQrbY4ER5WHxgG9DU~zzBRY8lFijymRkl0vYIf3YazYcC~dtpzX8S9r0r8gVtm7hd~Z3HzzhQoBf8Jpg9wkhDg3ZexXhaxAvRmPCFbnz-2Vg3cZAyt02YCMrTPT5tLKxdb5k1Gwaa9mpDpe2hq5eoOpXspgeXScN6LDEv7GJgbza2z8tWXFRFEJWQDFYS3a-DBgEheNMfn2HtINpo4ovov9GQw__') center/cover no-repeat;
+    linear-gradient(135deg, #171717, #0D0D0D);
+      /* Если нет изображения, используйте градиент: 
        background: linear-gradient(135deg, #171717, #0D0D0D);
     */
   }
@@ -81,7 +82,7 @@
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
   }
   
   .hero-content {
